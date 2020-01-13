@@ -1,33 +1,29 @@
-1. 
-Illustrate the following 3 types of data binding with an example - 
-```
-a. From the Component to the DOM: Interpolation
-b. From the DOM to the Component: Event binding
-c. Two-way data binding
-```
+1.
+What is the diffeence between Typescript & Javascript.
+
 2.
-Explain on how to use HttpClient with an example?
+What are the differences between `Module` , `Component` & `Directive` ?
 
 3.
-How to perform `error` handling in `HTTP` call ?
+What are `services` ? How to create a `singleton service` ?
 
 4.
-How do you create directives using CLI in a particular directory of a project ?
+What are providers ?
 
 5.
-Name any 4 router events. Write an example code snippet showing how to capture a router event.
+What are decorators ?
 
 6.
-How will you share data from parent to child component ? Illustrate with an example. 
+What is `life-cycle-hook` ? In which order the hooks are called ?
 
 7.
-How to cast strong type on an Object ? Illustrate with an example.
+What are directives ? Name 5 type of Directives.
 
 8.
-How do you select an element with in a component template?
+How does `input` & `output` decorators work ?
 
 9.
-What is the purpose of innerHTML? Illustrate with sample code snippet. 
+How can we communicate between 2 different components other than `parent-child` relationship ?
 
 10.
-How to get user input from the $event object? Illustrate with sample code snippet. 
+What is `App Initializer` in angular ? / How can we initialize a method at the start of angular application before any of the component/service gets instantiated ?
