@@ -1,3 +1,5 @@
+## JavaScript Test
+#### Time : 
 1. 
 Write a function `isThreeDigit` that checks if a number is greater than or equal to 100 and less than 1000. `isThreeDigit(500)` should return `true`. The call `isThreeDigit(50)` should return `false`.
 
