@@ -76,4 +76,78 @@ console.log(hero.getSecretIdentity());
 
 >The second returns false because of how the engine works regarding operator associativity for < and >. It compares left to right, so 3 > 2 > 1 JavaScript translates to true > 1. true has value 1, so it then compares 1 > 1, which is false.
 
+### 11.
+>Option A 
+>Arrays have a `pop()` method (it works with push()) that reduces the length of an array by 1 but also returns the value of the deleted element.
 
+### 12.
+>Option C
+
+>If the return statement does not have an associated expression, it returns the `undefined` value.
+
+### 13.
+```
+Question: Is 'false' is false?
+
+Answer: No. Because, it's a string with length greater than 0. Only empty string is false.
+
+Question: Is ' ' is false?
+
+Answer: No. Because, it's not an empty string. There is a white space in it.
+
+Question: What about {}?
+
+Answer: true. It's an object. An object without any property is an object can't be falsy.
+
+Question: Tell me about []?
+
+Answer: This is also truthy. It's an array object (array is child of object) is truthy.
+```
+
+### 14.
+>Option A
+
+>The debugger statement normally does nothing. If, however, a debugger program is available and is running, then an implementation may (but is not required to) perform some kind of debugging action. In practice, this statement acts like a breakpoint: execution of JavaScript code stops and you can use the debugger to print variable’s values.
+
+### 15.
+>Option B
+
+>When using square bracket notation, the expression inside the square brackets must evaluate to a sting or a value that can be converted to a string.
+
+### 16.
+```
+Date.prototype.nextDay = function(){
+  var currentDate = this.getDate();
+  return new Date(this.setDate(currentDate +1));
+}
+
+var date = new Date(); 
+date; 
+//Fri May 16 2014 20:47:14 GMT-0500 (Central Daylight Time)
+
+date.nextDay();
+//Sat May 17 2014 20:47:14 GMT-0500 (Central Daylight Time)
+```
+
+### 17.
+>Option A. The number of milliseconds since January 1st, 1970
+
+### 18.
+>Option B
+
+### 19.
+>Option C
+
+### 20.
+
+Explanation:
+
+>function declaration function a(){} is hoisted first and it behaves like var a = function () {};. Hence in local scope variable a is created.
+``` // 
+```
+>If you have two variables with same name (one in global another in local), local variable always get precedence over global variable.
+
+>When you set `a = 10;`, you are setting the local variable `a` , not the global one. Hence, the value of global variable remain same and you get, 1 in the log.
+``` // 
+```
+>Extra: If you didnt have a function named as `"a"`, you will see 10 in the log.

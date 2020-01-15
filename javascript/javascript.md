@@ -116,3 +116,98 @@ console.log(1 < 2 < 3);     // returns true
 console.log(3 > 2 > 1);     // returns false !!
 ```
 Why does the second code prints `false` ?
+
+11.
+The pop() method of the array does which of the following task ? 
+
+A. decrements the total length by 1
+B. increments the total length by 1
+C. prints the first element but no effect on the length
+D. None of the above 
+
+12.
+What will happen if a return statement does not have an associated expression?
+
+A. It returns the value 0
+B. It will throw an exception
+C. It returns the undefined value
+D. None of the mentioned 
+
+13.
+True False Rapid Fire: - whether the following statements are `true` or `false` and why ?
+
+```
+Question: Is 'false' is false?
+
+Question: Is ' ' is false?
+
+Question: What about {}?
+
+Question: Tell me about []?
+
+```
+
+14.
+Consider the following code snippet
+```
+function f(o) 
+{
+     if (o === undefined) debugger;
+}
+```
+What could be the task of the statement `debugger`?
+
+15.
+Consider the following syntax
+```
+book[datatype] = assignment_value;
+```
+In the above syntax, the `datatype` within the square brackets must be
+
+A. An integer
+B. A String
+C. An object
+D. None of the mentioned 
+
+16.
+How could you write a method on instance of a date which will give you next day? Write a code snippet.
+
+17.
+How does JavaScript store dates in a date object?
+
+A. The number of milliseconds since January 1st, 1970
+B. The number of days since January 1st, 1900
+C. The number of seconds since Netscape's public stock offering.
+D. None of the above
+
+18.
+Which of the following is not considered a JavaScript operator?
+
+A. new
+B. this
+C. delete
+D. typeof
+
+19.
+Which of the following is the structure of an if statement?
+
+A. if (conditional expression is true)  thenexecute this codeend if
+B. if (conditional expression is true)  execute this codeend if
+C. if (conditional expression is true)   {then execute this code>->}
+D. if (conditional expression is true) then {execute this code}
+
+20.
+What will you see in the console for the following example? Why ?
+
+```
+var a = 1; 
+function b() { 
+    a = 10; 
+    return; 
+    function a() {} 
+} 
+//
+b(); 
+//
+console.log(a);    
+```
