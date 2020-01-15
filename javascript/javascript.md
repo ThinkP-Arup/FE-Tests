@@ -191,8 +191,8 @@ D. typeof
 19.
 Which of the following is the structure of an if statement?
 
-A. if (conditional expression is true)  thenexecute this codeend if
-B. if (conditional expression is true)  execute this codeend if
+A. if (conditional expression is true)  then execute this code end if
+B. if (conditional expression is true)  execute this code end if
 C. if (conditional expression is true)   {then execute this code>->}
 D. if (conditional expression is true) then {execute this code}
 
