@@ -195,10 +195,13 @@ How does JavaScript store dates in a `date object`?
 #### 18.
 Which of the following is not considered a JavaScript operator?
 
->A. new
-B. this
-C. delete
-D. typeof
+>A. `new`
+
+>B. `this`
+
+>C. `delete`
+
+>D. `typeof`
 
 #### 19.
 Which of the following is the structure of an if statement?
